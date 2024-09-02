@@ -45,4 +45,22 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // CameraX core library
+    implementation ("androidx.camera:camera-core:1.2.2")
+
+    // CameraX camera2 implementation
+    implementation ("androidx.camera:camera-camera2:1.2.2")
+
+    // CameraX lifecycle library (to integrate with LifecycleOwner)
+    implementation ("androidx.camera:camera-lifecycle:1.2.2")
+
+    // CameraX view (for PreviewView)
+    implementation ("androidx.camera:camera-view:1.3.0")
+
+    // Optional: CameraX extensions (for advanced effects)
+    implementation ("androidx.camera:camera-extensions:1.3.0")
+
+    // ML Kit Barcode Scanning
+    implementation ("com.google.mlkit:barcode-scanning:17.0.3")
 }
